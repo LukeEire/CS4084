@@ -17,7 +17,9 @@ public class GlobalClass extends Application {
             R.drawable.cheesy_ham_and_broccoli_pasta,
             R.drawable.piri_piri_chicken_with_spicy_rice,
             R.drawable.refried_bean_quesadillas,
-            R.drawable.tuna_and_sweetcorn_fish_cakes
+            R.drawable.tuna_and_sweetcorn_fish_cakes,
+            R.drawable.jumbo_sausage_roll_with_salsa_beans,
+            R.drawable.sicilian_style_tuna_lasagne
     };
 
     private final int[] vegPics = {
@@ -32,11 +34,13 @@ public class GlobalClass extends Application {
 
     private final int[] porkPics = {
             R.drawable.sausage_ragu,
-            R.drawable.cheesy_ham_and_broccoli_pasta
+            R.drawable.cheesy_ham_and_broccoli_pasta,
+            R.drawable.jumbo_sausage_roll_with_salsa_beans
     };
 
     private final int[] fishPics = {
-            R.drawable.tuna_and_sweetcorn_fish_cakes
+            R.drawable.tuna_and_sweetcorn_fish_cakes,
+            R.drawable.sicilian_style_tuna_lasagne
     };
 
     //Same applies for recipe names, you call and merge whatever is needed
@@ -47,7 +51,9 @@ public class GlobalClass extends Application {
             "Cheesy ham and broccoli pasta",
             "Piri Piri Chicken with spicy rice",
             "Refried bean quesadillas",
-            "Tuna and sweetcorn fish cakes"
+            "Tuna and sweetcorn fish cakes",
+            "Jumbo sausage roll with salsa beans",
+            "Sicilian-style tuna lasagne"
 
     };
 
@@ -63,11 +69,13 @@ public class GlobalClass extends Application {
 
     private final String [] porkRecipes = {
             "Sausage Ragu",
-            "Cheesy ham and broccoli pasta"
+            "Cheesy ham and broccoli pasta",
+            "Jumbo sausage roll with salsa beans"
     };
 
     private final String [] fishRecipes = {
-            "Tuna and sweetcorn fish cakes"
+            "Tuna and sweetcorn fish cakes",
+            "Sicilian-style tuna lasagne"
 
     };
 
@@ -79,6 +87,8 @@ public class GlobalClass extends Application {
             "Pork",
             "Chicken",
             "Vegetarian",
+            "Fish",
+            "Pork",
             "Fish"
     };
 
@@ -94,10 +104,12 @@ public class GlobalClass extends Application {
 
     private final String [] porkTypes = {
             "Pork",
+            "Pork",
             "Pork"
     };
 
     private final String [] fishTypes = {
+            "Fish",
             "Fish"
     };
 
@@ -115,7 +127,20 @@ public class GlobalClass extends Application {
 
             "STEP 1\nHeat the oil in a large frying pan and cook the onion and garlic for 2 mins. Add the cumin and cook for 1 min more. Tip in the beans, paprika and a splash of water. Using a potato masher, break the beans down as they warm through to make a rough purée. Season generously.\n\nSTEP 2\nSpread the refried beans onto 4 of the tortillas and scatter over the cheese and coriander. Spoon over the salsa, then top with the remaining tortillas to make 4 sandwiches. Wipe the frying pan with kitchen paper and return to the heat or heat a griddle pan. Cook each sandwich for 1-2 mins on each side until the tortillas are crisp and golden and the cheese is melting. Serve warm, cut into wedges, with extra salsa and soured cream for dipping.",
 
-            "STEP 1\nCook the potatoes in boiling salted water until really tender. Drain and allow to steam-dry in a colander. Tip into a bowl, season and mash. Stir in the mayonnaise, tuna, sweetcorn and chives or parsley. Shape into 4 cakes and chill until cold and firm.\n\nSTEP 2\nDip each cake into the egg, letting the excess drip off, then coat in the breadcrumbs. Chill for 15 mins.\n\nSTEP 3\nHeat a little of the oil in a pan and gently fry the cakes for 2-3 mins on each side until golden. You may need to do this in batches – keep warm in a low oven. Serve with extra mayonnaise and salad leaves."
+            "STEP 1\nCook the potatoes in boiling salted water until really tender. Drain and allow to steam-dry in a colander. Tip into a bowl, season and mash. Stir in the mayonnaise, tuna, sweetcorn and chives or parsley. Shape into 4 cakes and chill until cold and firm.\n\nSTEP 2\nDip each cake into the egg, letting the excess drip off, then coat in the breadcrumbs. Chill for 15 mins.\n\nSTEP 3\nHeat a little of the oil in a pan and gently fry the cakes for 2-3 mins on each side until golden. You may need to do this in batches – keep warm in a low oven. Serve with extra mayonnaise and salad leaves.",
+
+            "STEP 1\n" + "Heat oven to 200C/180C fan/gas 6 and line a baking tray with baking parchment or foil. In a large bowl, mix together the sausagemeat, herbs, half the salsa and roughly half the egg until well combined.\n" + "\n" +
+                    "STEP 2\n" +
+                    "Unroll the pastry sheet on your baking tray. Pile the sausage mixture onto one side of the pastry – along the longer side – leaving a gap of 4cm around the edge. Brush a little of the egg around the edges, then fold the pastry over the filling. Press the edges together with a fork and score a few air holes through the top with a knife (to let steam escape). Brush with the remaining egg and bake for 40 mins.\n" +
+                    "\n" +
+                    "STEP 3\n" +
+                    "Meanwhile, tip the beans, tomatoes, remaining salsa and some seasoning into a saucepan and cover with a lid. Simmer for 20 mins or until the sauce is thick and clings to the beans. To serve, scatter the beans with the chilli and serve with slices of sausage roll.",
+
+            "STEP 1\n" +
+                    "Heat oven to 200C/180C fan/gas 6. Tip the tomatoes, peppers, olives, cinnamon and herbs into a pan, cover and simmer for 10 mins until the tomatoes have broken down a little. Add the tuna and season.\n" +
+                    "\n" +
+                    "STEP 2\n" +
+                    "Tip the cream cheese into a bowl, season and mix to loosen a little, adding a splash of water (or milk, if you have some) to make a thick white-sauce consistency. Assemble the lasagne in a baking dish, approx 20 x 30cm. Pour roughly a third of the tuna sauce into the bottom of the dish, top with 4 lasagne sheets, a third of the cream cheese sauce, then repeat the layers twice more. Scatter over the mozzarella and bake for 35 mins until golden and bubbling."
     };
 
     private final String [] vegSteps = {
@@ -135,10 +160,25 @@ public class GlobalClass extends Application {
             "STEP 1\nHeat 2 tbsp of the oil in a saucepan over a medium heat. Fry the onion with a pinch of salt for 7 mins. Add the garlic, chilli and rosemary, and cook for 1 min more. Tip in the tomatoes and sugar, and simmer for 20 mins.\n\nSTEP 2\nHeat the remaining oil in a medium frying pan over a medium heat. Squeeze the sausagemeat from the skins and fry, breaking it up with a wooden spoon, for 5-7 mins until golden. Add to the sauce with the milk and lemon zest, then simmer for a further 5 mins. To freeze, leave to cool completely and transfer to large freezerproof bags.\n\nSTEP 3\nCook the pasta following pack instructions. Drain and toss with the sauce. Scatter over the parmesan and parsley leaves to serve",
 
             "STEP 1\nBring a large pan of water to the boil and cook the pasta following pack instructions, adding the broccoli florets to the pan for the final 4 mins. Drain and set aside.\n\nSTEP 2\nMeanwhile, make the sauce. Heat the oil in a large pan and cook the onion for 5 mins to soften, then stir in the garlic and cook for 1 min more. Stir in the ham, cream and mustard, then bring to the boil. Add the pasta and broccoli, then stir in the cheese, coating everything in the sauce.",
+
+            "STEP 1\n" +
+                    "Heat oven to 200C/180C fan/gas 6 and line a baking tray with baking parchment or foil. In a large bowl, mix together the sausagemeat, herbs, half the salsa and roughly half the egg until well combined.\n" +
+                    "\n" +
+                    "STEP 2\n" +
+                    "Unroll the pastry sheet on your baking tray. Pile the sausage mixture onto one side of the pastry – along the longer side – leaving a gap of 4cm around the edge. Brush a little of the egg around the edges, then fold the pastry over the filling. Press the edges together with a fork and score a few air holes through the top with a knife (to let steam escape). Brush with the remaining egg and bake for 40 mins.\n" +
+                    "\n" +
+                    "STEP 3\n" +
+                    "Meanwhile, tip the beans, tomatoes, remaining salsa and some seasoning into a saucepan and cover with a lid. Simmer for 20 mins or until the sauce is thick and clings to the beans. To serve, scatter the beans with the chilli and serve with slices of sausage roll."
     };
 
     private final String [] fishSteps = {
-            "STEP 1\nCook the potatoes in boiling salted water until really tender. Drain and allow to steam-dry in a colander. Tip into a bowl, season and mash. Stir in the mayonnaise, tuna, sweetcorn and chives or parsley. Shape into 4 cakes and chill until cold and firm.\n\nSTEP 2\nDip each cake into the egg, letting the excess drip off, then coat in the breadcrumbs. Chill for 15 mins.\n\nSTEP 3\nHeat a little of the oil in a pan and gently fry the cakes for 2-3 mins on each side until golden. You may need to do this in batches – keep warm in a low oven. Serve with extra mayonnaise and salad leaves."
+            "STEP 1\nCook the potatoes in boiling salted water until really tender. Drain and allow to steam-dry in a colander. Tip into a bowl, season and mash. Stir in the mayonnaise, tuna, sweetcorn and chives or parsley. Shape into 4 cakes and chill until cold and firm.\n\nSTEP 2\nDip each cake into the egg, letting the excess drip off, then coat in the breadcrumbs. Chill for 15 mins.\n\nSTEP 3\nHeat a little of the oil in a pan and gently fry the cakes for 2-3 mins on each side until golden. You may need to do this in batches – keep warm in a low oven. Serve with extra mayonnaise and salad leaves.",
+
+            "STEP 1\n" +
+                    "Heat oven to 200C/180C fan/gas 6. Tip the tomatoes, peppers, olives, cinnamon and herbs into a pan, cover and simmer for 10 mins until the tomatoes have broken down a little. Add the tuna and season.\n" +
+                    "\n" +
+                    "STEP 2\n" +
+                    "Tip the cream cheese into a bowl, season and mix to loosen a little, adding a splash of water (or milk, if you have some) to make a thick white-sauce consistency. Assemble the lasagne in a baking dish, approx 20 x 30cm. Pour roughly a third of the tuna sauce into the bottom of the dish, top with 4 lasagne sheets, a third of the cream cheese sauce, then repeat the layers twice more. Scatter over the mozzarella and bake for 35 mins until golden and bubbling."
     };
 
     //Method used to combine the string arrays as needed
