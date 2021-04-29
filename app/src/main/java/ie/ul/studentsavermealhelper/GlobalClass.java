@@ -232,6 +232,8 @@ public class GlobalClass extends Application {
             return chickenRecipes;
         }else if(!vegSwitch && chickenSwitch && !porkSwitch && fishSwitch) {
             return combineArrays(chickenRecipes, fishRecipes);
+        }else if(!vegSwitch && chickenSwitch && porkSwitch && !fishSwitch) {
+            return combineArrays(chickenRecipes, porkRecipes);
         }else if(!vegSwitch && chickenSwitch && porkSwitch && fishSwitch) {
             String [] cpf = combineArrays(chickenRecipes, porkRecipes);
             return combineArrays(cpf, fishRecipes);
@@ -276,6 +278,8 @@ public class GlobalClass extends Application {
         }else if(!vegSwitch && chickenSwitch && porkSwitch && fishSwitch) {
             String [] cpf = combineArrays(chickenTypes, porkTypes);
             return combineArrays(cpf, fishTypes);
+        }else if(!vegSwitch && chickenSwitch && porkSwitch && !fishSwitch) {
+            return combineArrays(chickenTypes, porkTypes);
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && !fishSwitch) {
             return vegTypes;
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && fishSwitch) {
@@ -318,6 +322,8 @@ public class GlobalClass extends Application {
         }else if(!vegSwitch && chickenSwitch && porkSwitch && fishSwitch) {
             String [] cpf = combineArrays(chickenSteps, porkSteps);
             return combineArrays(cpf, fishSteps);
+        }else if(!vegSwitch && chickenSwitch && porkSwitch && !fishSwitch) {
+            return combineArrays(chickenSteps, porkSteps);
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && !fishSwitch) {
             return vegSteps;
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && fishSwitch) {
@@ -359,6 +365,8 @@ public class GlobalClass extends Application {
         }else if(!vegSwitch && chickenSwitch && porkSwitch && fishSwitch) {
             int [] cpf = combinePics(chickenPics, porkPics);
             return combinePics(cpf, fishPics);
+        }else if(!vegSwitch && chickenSwitch && porkSwitch && !fishSwitch) {
+            return combinePics(chickenPics, porkPics);
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && !fishSwitch) {
             return vegPics;
         }else if(vegSwitch && !chickenSwitch && !porkSwitch && fishSwitch) {
