@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Student Saver Meal Helper</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="hero_image_for_recipe">Hero image for recipe</string>
+    <string name="title">Title</string>
+    <string name="type">Type</string>
+    <string name="instructions">Instructions</string>
+    <string name="gear_icon">Gear Icon</string>
+    <string name="set_meal_preferences_here">Set Meal Preferences Here</string>
+
+
+</resources>
